@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     cs.tvos.private_header_files = ['Source/Internal/*.h', 'Source/Common/Internal/*.h']
   end
 
-  s.default_subspec = 'Dgefault'
+  s.default_subspec = 'Default'
   s.requires_arc = true
 
   s.ios.deployment_target = '8.0'
